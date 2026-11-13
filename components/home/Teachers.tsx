@@ -4,22 +4,22 @@ import Link from "next/link";
 const teachers = [
   {
     name: "Jaschar Name",
-    role: "Math Specialist",
-    subject: "Mathematics",
+    role: "গণিত বিশেষজ্ঞ",
+    subject: "গণিত",
     initials: "JN",
     color: "bg-[#e8f3fb] text-[#145b86]",
   },
   {
     name: "Jasmin Ahmed",
-    role: "Physics Lecturer",
-    subject: "Physics",
+    role: "পদার্থবিজ্ঞানের প্রভাষক",
+    subject: "পদার্থবিজ্ঞান",
     initials: "JA",
     color: "bg-[#e9f8ef] text-[#168354]",
   },
   {
     name: "Nadia Rahman",
-    role: "English Instructor",
-    subject: "English",
+    role: "ইংরেজি প্রশিক্ষক",
+    subject: "ইংরেজি",
     initials: "NR",
     color: "bg-[#fff1e2] text-[#e89025]",
   },
@@ -32,16 +32,16 @@ export default function Teachers() {
         <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
           <div>
             <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-[#145b86]">
-              Meet Our Team
+              আমাদের দলের সঙ্গে পরিচিত হোন
             </p>
 
             <h2 className="text-3xl font-bold leading-tight tracking-tight text-slate-900 sm:text-4xl">
-              Learn From Expert Teachers
+              বিশেষজ্ঞ শিক্ষকদের কাছ থেকে শিখুন
             </h2>
 
             <p className="mt-4 max-w-xl text-sm leading-6 text-slate-600 sm:text-base">
-              Our dedicated teachers bring experience, care, and practical
-              guidance to every classroom.
+              আমাদের নিবেদিত শিক্ষকরা প্রতিটি শ্রেণিকক্ষে অভিজ্ঞতা, যত্ন এবং
+              ব্যবহারিক দিকনির্দেশনা নিয়ে আসেন।
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export default function Teachers() {
             href="/teachers"
             className="inline-flex w-fit items-center text-sm font-bold text-[#145b86] transition-colors hover:text-[#0f4668]"
           >
-            Meet All Teachers
+            সব শিক্ষকের সঙ্গে পরিচিত হোন
             <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
           </Link>
         </div>
@@ -85,7 +85,7 @@ export default function Teachers() {
                 href="/teachers"
                 className="mt-4 inline-flex items-center text-xs font-semibold text-[#145b86] hover:underline"
               >
-                View Profile
+                প্রোফাইল দেখুন
                 <UserRound className="ml-1.5 h-3.5 w-3.5" aria-hidden="true" />
               </Link>
             </article>

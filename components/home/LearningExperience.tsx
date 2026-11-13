@@ -4,15 +4,14 @@ import { ArrowRight, MonitorPlay, UsersRound } from "lucide-react";
 
 const experiences = [
   {
-    title: "Classroom Experience",
-    description:
-      "Learn together in a focused and supportive classroom environment.",
+    title: "শ্রেণিকক্ষের অভিজ্ঞতা",
+    description: "মনোযোগী ও সহায়ক শ্রেণিকক্ষের পরিবেশে একসঙ্গে শিখুন।",
     icon: UsersRound,
     imagePosition: "object-left",
   },
   {
-    title: "Digital Learning",
-    description: "Access helpful resources and guidance beyond the classroom.",
+    title: "ডিজিটাল শিক্ষা",
+    description: "শ্রেণিকক্ষের বাইরেও সহায়ক উপকরণ ও দিকনির্দেশনা পান।",
     icon: MonitorPlay,
     imagePosition: "object-right",
   },
@@ -24,16 +23,16 @@ export default function LearningExperience() {
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto max-w-2xl text-center">
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-[#145b86]">
-            Learning Experience
+            শিক্ষার অভিজ্ঞতা
           </p>
 
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-slate-900 sm:text-4xl">
-            Learning That Makes a Difference
+            যে শিক্ষা পরিবর্তন আনে
           </h2>
 
           <p className="mt-4 text-sm leading-6 text-slate-600 sm:text-base">
-            We combine engaging classroom learning with practical digital
-            support to help students learn confidently.
+            শিক্ষার্থীদের আত্মবিশ্বাসের সঙ্গে শিখতে সহায়তা করার জন্য আমরা
+            আকর্ষণীয় শ্রেণিকক্ষের শিক্ষা ও ব্যবহারিক ডিজিটাল সহায়তা একত্র করি।
           </p>
         </div>
 
@@ -74,7 +73,7 @@ export default function LearningExperience() {
                         href="/courses"
                         className="mt-4 inline-flex items-center text-sm font-semibold text-[#145b86] hover:text-[#0f4668]"
                       >
-                        Explore More
+                        আরও জানুন
                         <ArrowRight
                           className="ml-2 h-4 w-4"
                           aria-hidden="true"

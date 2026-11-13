@@ -4,25 +4,25 @@ import { Button } from "@/components/ui/button";
 
 const courses = [
   {
-    title: "Class 6 to HSC",
+    title: "৬ষ্ঠ শ্রেণি থেকে এইচএসসি",
     description:
-      "Build a strong academic foundation with structured lessons and regular guidance.",
+      "পরিকল্পিত পাঠ ও নিয়মিত দিকনির্দেশনার মাধ্যমে শক্তিশালী একাডেমিক ভিত্তি গড়ে তুলুন।",
     image: "/hero.jpeg",
-    tags: ["School", "SSC", "HSC"],
+    tags: ["স্কুল", "এসএসসি", "এইচএসসি"],
   },
   {
-    title: "Academic Excellence",
+    title: "একাডেমিক উৎকর্ষ",
     description:
-      "Improve subject understanding, confidence, and preparation for important exams.",
+      "বিষয়ভিত্তিক জ্ঞান, আত্মবিশ্বাস এবং গুরুত্বপূর্ণ পরীক্ষার প্রস্তুতি আরও উন্নত করুন।",
     image: "/hero.jpeg",
-    tags: ["English", "Math", "Science"],
+    tags: ["ইংরেজি", "গণিত", "বিজ্ঞান"],
   },
   {
-    title: "Admission Preparation",
+    title: "ভর্তি পরীক্ষার প্রস্তুতি",
     description:
-      "Get focused support and practical strategies for competitive admission tests.",
+      "প্রতিযোগিতামূলক ভর্তি পরীক্ষার জন্য লক্ষ্যভিত্তিক সহায়তা ও কার্যকর কৌশল পান।",
     image: "/hero.jpeg",
-    tags: ["Admission", "Mentoring"],
+    tags: ["ভর্তি", "মেন্টরিং"],
   },
 ];
 
@@ -33,16 +33,16 @@ export default function Courses() {
         <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
           <div>
             <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-[#145b86]">
-              Our Programs
+              আমাদের প্রোগ্রামসমূহ
             </p>
 
             <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              Explore Our Courses
+              আমাদের কোর্সগুলো দেখুন
             </h2>
 
             <p className="mt-3 max-w-xl text-sm leading-6 text-slate-600 sm:text-base">
-              Carefully designed courses to help students learn with confidence
-              and reach their academic goals.
+              শিক্ষার্থীদের আত্মবিশ্বাসের সঙ্গে শিখতে এবং একাডেমিক লক্ষ্য অর্জনে
+              সহায়তা করার জন্য যত্নসহকারে তৈরি কোর্সসমূহ।
             </p>
           </div>
 
@@ -50,9 +50,7 @@ export default function Courses() {
             variant="outline"
             className="w-fit border-[#145b86] text-[#145b86] hover:bg-[#145b86] hover:text-white"
           >
-            <Link href="/courses">
-              View All Courses
-            </Link>
+            <Link href="/courses">সব কোর্স দেখুন</Link>
           </Button>
         </div>
 
@@ -92,11 +90,8 @@ export default function Courses() {
                   {course.description}
                 </p>
 
-                <Button
-                  
-                  className="mt-5 h-10 w-full rounded-md bg-[#145b86] font-semibold text-white hover:bg-[#0f4668]"
-                >
-                  <Link href="/contact">Contact Now</Link>
+                <Button className="mt-5 h-10 w-full rounded-md bg-[#145b86] font-semibold text-white hover:bg-[#0f4668]">
+                  <Link href="/contact">এখনই যোগাযোগ করুন</Link>
                 </Button>
               </div>
             </article>

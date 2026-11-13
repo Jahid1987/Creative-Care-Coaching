@@ -3,25 +3,24 @@ import { ChevronLeft, ChevronRight, Quote, Star } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "The teachers explain every topic clearly and always encourage us to do better.",
+      "শিক্ষকেরা প্রতিটি বিষয় খুব সহজভাবে বোঝান এবং সবসময় আমাদের আরও ভালো করতে উৎসাহ দেন।",
     name: "Sabila Rahman",
-    role: "SSC Student",
+    role: "এসএসসি শিক্ষার্থী",
     initials: "SR",
     color: "bg-[#e8f3fb] text-[#145b86]",
   },
   {
     quote:
-      "Creative Care Coaching helped me become more confident and prepared for my exams.",
+      "ক্রিয়েটিভ কেয়ার কোচিং আমাকে আরও আত্মবিশ্বাসী হতে এবং পরীক্ষার জন্য প্রস্তুত হতে সহায়তা করেছে।",
     name: "Tanvir Hasan",
-    role: "HSC Student",
+    role: "এইচএসসি শিক্ষার্থী",
     initials: "TH",
     color: "bg-[#e9f8ef] text-[#168354]",
   },
   {
-    quote:
-      "The learning environment is friendly, focused, and genuinely supportive.",
+    quote: "শিক্ষার পরিবেশটি বন্ধুত্বপূর্ণ, মনোযোগী এবং সত্যিই সহায়ক।",
     name: "Mim Akter",
-    role: "Student",
+    role: "শিক্ষার্থী",
     initials: "MA",
     color: "bg-[#fff1e2] text-[#e89025]",
   },
@@ -34,23 +33,23 @@ export default function Testimonials() {
         <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
           <div>
             <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-[#145b86]">
-              Testimonials
+              শিক্ষার্থীদের মতামত
             </p>
 
             <h2 className="text-3xl font-bold leading-tight tracking-tight text-slate-900 sm:text-4xl">
-              What Our Students Say
+              আমাদের শিক্ষার্থীরা কী বলে
             </h2>
 
             <p className="mt-4 max-w-xl text-sm leading-6 text-slate-600 sm:text-base">
-              Hear from students who are growing, learning, and achieving their
-              goals with Creative Care Coaching.
+              ক্রিয়েটিভ কেয়ার কোচিংয়ের মাধ্যমে বেড়ে ওঠা, শেখা এবং নিজেদের
+              লক্ষ্য অর্জন করা শিক্ষার্থীদের অভিজ্ঞতা শুনুন।
             </p>
           </div>
 
           <div className="flex gap-2">
             <button
               type="button"
-              aria-label="Previous testimonials"
+              aria-label="আগের মতামতগুলো"
               className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-[#145b86] transition-colors hover:bg-[#e8f3fb]"
             >
               <ChevronLeft className="h-4 w-4" aria-hidden="true" />
@@ -58,7 +57,7 @@ export default function Testimonials() {
 
             <button
               type="button"
-              aria-label="Next testimonials"
+              aria-label="পরের মতামতগুলো"
               className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-[#145b86] transition-colors hover:bg-[#e8f3fb]"
             >
               <ChevronRight className="h-4 w-4" aria-hidden="true" />

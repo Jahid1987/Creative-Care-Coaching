@@ -2,23 +2,23 @@ import { Award, BookOpen, CheckCircle2, Users } from "lucide-react";
 
 const stats = [
   {
-    value: "10+",
-    label: "Years Teaching",
+    value: "১০+",
+    label: "বছরের অভিজ্ঞতা",
     icon: BookOpen,
   },
   {
-    value: "140+",
-    label: "Students",
+    value: "১৪০০+",
+    label: "শিক্ষার্থী",
     icon: Users,
   },
   {
-    value: "90%+",
-    label: "Satisfaction Rate",
+    value: "৯০%+",
+    label: "সন্তুষ্টির হার",
     icon: CheckCircle2,
   },
   {
-    value: "100+",
-    label: "Admission Stories",
+    value: "১০০+",
+    label: "ভর্তি সাফল্যের গল্প",
     icon: Award,
   },
 ];

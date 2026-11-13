@@ -7,30 +7,30 @@ import {
 
 const reasons = [
   {
-    title: "Modern Teachers",
+    title: "আধুনিক শিক্ষাদান পদ্ধতি",
     description:
-      "Learn from experienced teachers who make every lesson clear, practical, and engaging.",
+      "অভিজ্ঞ শিক্ষকদের কাছ থেকে শিখুন, যারা প্রতিটি পাঠকে সহজবোধ্য, ব্যবহারিক ও আকর্ষণীয় করে তোলেন।",
     icon: UsersRound,
     iconClass: "bg-[#e8f3fb] text-[#145b86]",
   },
   {
-    title: "Inspiring Exams",
+    title: "অনুপ্রেরণাদায়ক পরীক্ষা",
     description:
-      "Build confidence through regular practice, helpful feedback, and meaningful progress.",
+      "নিয়মিত অনুশীলন, সহায়ক মতামত এবং অর্থবহ অগ্রগতির মাধ্যমে আত্মবিশ্বাস গড়ে তুলুন।",
     icon: BookOpenCheck,
     iconClass: "bg-[#e9f8ef] text-[#20a56b]",
   },
   {
-    title: "Concise Resources",
+    title: "সংক্ষিপ্ত শিক্ষাসামগ্রী",
     description:
-      "Get focused study materials that make revision easier and help you learn faster.",
+      "এমন লক্ষ্যভিত্তিক পড়াশোনার উপকরণ পান, যা পুনরাবৃত্তি সহজ করে এবং দ্রুত শিখতে সহায়তা করে।",
     icon: Lightbulb,
     iconClass: "bg-[#fff1e2] text-[#e89025]",
   },
   {
-    title: "Resourced Stories",
+    title: "অনুপ্রেরণামূলক গল্প",
     description:
-      "Stay motivated through real student journeys, achievements, and success stories.",
+      "শিক্ষার্থীদের বাস্তব অভিজ্ঞতা, অর্জন এবং সাফল্যের গল্পের মাধ্যমে অনুপ্রাণিত থাকুন।",
     icon: GraduationCap,
     iconClass: "bg-[#e9f1fb] text-[#3c78b4]",
   },
@@ -42,16 +42,17 @@ export default function Why() {
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto max-w-2xl text-center">
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-[#145b86]">
-            Why Choose Us
+            কেন আমাদের বেছে নেবেন
           </p>
 
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-slate-900 sm:text-4xl">
-            Why Students Choose CCC
+            শিক্ষার্থীরা কেন CCC বেছে নেয়
           </h2>
 
           <p className="mt-4 text-sm leading-6 text-slate-600 sm:text-base">
-            We create a supportive learning experience that helps every student
-            grow with confidence and achieve better results.
+            আমরা এমন একটি সহায়ক শিক্ষার অভিজ্ঞতা তৈরি করি, যা প্রতিটি
+            শিক্ষার্থীকে আত্মবিশ্বাসের সঙ্গে এগিয়ে যেতে এবং আরও ভালো ফলাফল
+            অর্জন করতে সহায়তা করে।
           </p>
         </div>
 

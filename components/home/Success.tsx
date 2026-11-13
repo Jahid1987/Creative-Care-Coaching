@@ -3,22 +3,22 @@ import { CheckCircle2, Star } from "lucide-react";
 const successStories = [
   {
     name: "Nusrat Jahan",
-    result: "Achieved A+ in SSC",
-    subject: "Science Group",
+    result: "এসএসসিতে A+ অর্জন করেছে",
+    subject: "বিজ্ঞান বিভাগ",
     initials: "NJ",
     color: "bg-[#e8f3fb] text-[#145b86]",
   },
   {
     name: "Fahim Ahmed",
-    result: "Scored 90%+ in HSC",
-    subject: "Business Studies",
+    result: "এইচএসসিতে ৯০%+ নম্বর অর্জন করেছে",
+    subject: "ব্যবসায় শিক্ষা",
     initials: "FA",
     color: "bg-[#e9f8ef] text-[#168354]",
   },
   {
     name: "Sadia Rahman",
-    result: "Selected for University",
-    subject: "Admission Success",
+    result: "বিশ্ববিদ্যালয়ে ভর্তির জন্য নির্বাচিত",
+    subject: "ভর্তি পরীক্ষায় সাফল্য",
     initials: "SR",
     color: "bg-[#fff1e2] text-[#e89025]",
   },
@@ -30,16 +30,16 @@ export default function Success() {
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto max-w-2xl text-center">
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-[#145b86]">
-            Student Success
+            শিক্ষার্থীদের সাফল্য
           </p>
 
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-slate-900 sm:text-4xl">
-            Results That Inspire Us
+            যে ফলাফল আমাদের অনুপ্রাণিত করে
           </h2>
 
           <p className="mt-4 text-sm leading-6 text-slate-600 sm:text-base">
-            Our students&apos; dedication and achievements motivate us to keep
-            creating better learning experiences.
+            আমাদের শিক্ষার্থীদের নিষ্ঠা ও অর্জন আরও উন্নত শিক্ষার অভিজ্ঞতা তৈরি
+            করে যেতে আমাদের অনুপ্রাণিত করে।
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export default function Success() {
                   <h3 className="font-bold text-slate-900">{name}</h3>
                   <CheckCircle2
                     className="h-4 w-4 text-[#20a56b]"
-                    aria-label="Verified result"
+                    aria-label="যাচাইকৃত ফলাফল"
                   />
                 </div>
 
@@ -83,8 +83,8 @@ export default function Success() {
 
               <div className="mt-5 border-t border-slate-100 pt-4">
                 <p className="text-sm italic leading-6 text-slate-600">
-                  &quot;Creative Care Coaching helped me stay focused and
-                  confident throughout my preparation.&quot;
+                  &quot;ক্রিয়েটিভ কেয়ার কোচিং আমার প্রস্তুতির পুরো সময়জুড়ে
+                  মনোযোগী ও আত্মবিশ্বাসী থাকতে আমাকে সহায়তা করেছে।&quot;
                 </p>
               </div>
             </article>

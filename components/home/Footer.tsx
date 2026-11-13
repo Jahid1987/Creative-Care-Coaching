@@ -1,24 +1,18 @@
 import Link from "next/link";
-import {
-  Globe2,
-  Mail,
-  MapPin,
-  Phone,
-  Video,
-} from "lucide-react";
+import { Globe2, Mail, MapPin, Phone, Video } from "lucide-react";
 
 const quickLinks = [
-  { href: "/about", label: "About Us" },
-  { href: "/courses", label: "Courses" },
-  { href: "/teachers", label: "Teachers" },
-  { href: "/results", label: "Results" },
+  { href: "/about", label: "আমাদের সম্পর্কে" },
+  { href: "/courses", label: "কোর্সসমূহ" },
+  { href: "/teachers", label: "শিক্ষকবৃন্দ" },
+  { href: "/results", label: "ফলাফল" },
 ];
 
 const supportLinks = [
-  { href: "/contact", label: "Contact Us" },
-  { href: "/admission", label: "Admission Guidance" },
-  { href: "/faq", label: "FAQ" },
-  { href: "/privacy", label: "Privacy Policy" },
+  { href: "/contact", label: "যোগাযোগ করুন" },
+  { href: "/admission", label: "ভর্তি সংক্রান্ত দিকনির্দেশনা" },
+  { href: "/faq", label: "সাধারণ জিজ্ঞাসা" },
+  { href: "/privacy", label: "গোপনীয়তা নীতি" },
 ];
 
 export default function Footer() {
@@ -43,8 +37,8 @@ export default function Footer() {
           </Link>
 
           <p className="mt-5 max-w-sm text-sm leading-6 text-blue-100">
-            Helping students build strong foundations, grow with confidence, and
-            achieve bigger goals.
+            শিক্ষার্থীদের শক্তিশালী ভিত্তি গড়ে তুলতে, আত্মবিশ্বাসের সঙ্গে বেড়ে
+            উঠতে এবং বড় লক্ষ্য অর্জনে সহায়তা করছি।
           </p>
 
           <div className="mt-6 flex items-center gap-2">
@@ -52,7 +46,7 @@ export default function Footer() {
               <Link
                 key={index}
                 href="#"
-                aria-label={`Social media ${index + 1}`}
+                aria-label={`সামাজিক যোগাযোগমাধ্যম ${index + 1}`}
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-blue-100 transition-colors hover:bg-[#f2a52d] hover:text-white"
               >
                 <Icon className="h-4 w-4" aria-hidden="true" />
@@ -62,7 +56,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h2 className="text-sm font-bold">Quick Links</h2>
+          <h2 className="text-sm font-bold">দ্রুত লিংক</h2>
           <nav className="mt-5 flex flex-col gap-3">
             {quickLinks.map(({ href, label }) => (
               <Link
@@ -77,7 +71,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h2 className="text-sm font-bold">Support</h2>
+          <h2 className="text-sm font-bold">সহায়তা</h2>
           <nav className="mt-5 flex flex-col gap-3">
             {supportLinks.map(({ href, label }) => (
               <Link
@@ -92,12 +86,12 @@ export default function Footer() {
         </div>
 
         <div>
-          <h2 className="text-sm font-bold">Contact Information</h2>
+          <h2 className="text-sm font-bold">যোগাযোগের তথ্য</h2>
 
           <div className="mt-5 space-y-4">
             <div className="flex items-start gap-3 text-sm text-blue-100">
               <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#9ee5bd]" />
-              <span>Dhaka, Bangladesh</span>
+              <span>ঢাকা, বাংলাদেশ</span>
             </div>
 
             <div className="flex items-center gap-3 text-sm text-blue-100">
@@ -116,10 +110,10 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-5 text-center text-xs text-blue-200 sm:px-8 md:flex-row md:items-center md:justify-between md:text-left lg:px-10">
           <p>
-            © {new Date().getFullYear()} Creative Care Coaching. All rights
-            reserved.
+            © {new Date().getFullYear()} ক্রিয়েটিভ কেয়ার কোচিং। সর্বস্বত্ব
+            সংরক্ষিত।
           </p>
-          <p>Learn. Grow. Succeed.</p>
+          <p>শিখুন। বেড়ে উঠুন। সফল হোন।</p>
         </div>
       </div>
     </footer>

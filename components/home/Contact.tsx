@@ -4,23 +4,23 @@ import { Button } from "@/components/ui/button";
 const contactDetails = [
   {
     icon: Phone,
-    label: "Call Us",
+    label: "ফোন করুন",
     value: "+880 1700-000000",
   },
   {
     icon: Mail,
-    label: "Email Us",
+    label: "ইমেইল করুন",
     value: "hello@creativecare.edu",
   },
   {
     icon: MapPin,
-    label: "Visit Us",
-    value: "Dhaka, Bangladesh",
+    label: "আমাদের ঠিকানায় আসুন",
+    value: "ঢাকা, বাংলাদেশ",
   },
   {
     icon: Clock3,
-    label: "Office Hours",
-    value: "Sat - Thu, 9:00 AM - 7:00 PM",
+    label: "অফিস সময়",
+    value: "শনি - বৃহস্পতি, সকাল ৯:০০ - সন্ধ্যা ৭:০০",
   },
 ];
 
@@ -30,16 +30,16 @@ export default function Contact() {
       <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20">
         <div>
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-[#145b86]">
-            Get In Touch
+            যোগাযোগ করুন
           </p>
 
           <h2 className="max-w-lg text-3xl font-bold leading-tight tracking-tight text-slate-900 sm:text-4xl">
-            Contact & Admission Guidance
+            যোগাযোগ ও ভর্তি সংক্রান্ত দিকনির্দেশনা
           </h2>
 
           <p className="mt-5 max-w-lg text-sm leading-7 text-slate-600 sm:text-base">
-            Have questions about our courses or admission process? Send us a
-            message and our team will help you choose the right path.
+            আমাদের কোর্স বা ভর্তি প্রক্রিয়া সম্পর্কে কোনো প্রশ্ন আছে? আমাদের
+            বার্তা পাঠান, আমাদের দল আপনাকে সঠিক পথ বেছে নিতে সহায়তা করবে।
           </p>
 
           <div className="mt-8 space-y-5">
@@ -73,14 +73,14 @@ export default function Contact() {
                 htmlFor="name"
                 className="text-sm font-semibold text-slate-800"
               >
-                Full Name
+                পুরো নাম
               </label>
               <input
                 id="name"
                 name="name"
                 type="text"
                 required
-                placeholder="Your name"
+                placeholder="আপনার নাম"
                 className="mt-2 h-11 w-full rounded-md border border-slate-200 bg-white px-3 text-sm text-slate-900 outline-none transition focus:border-[#145b86] focus:ring-2 focus:ring-[#145b86]/20"
               />
             </div>
@@ -90,14 +90,14 @@ export default function Contact() {
                 htmlFor="phone"
                 className="text-sm font-semibold text-slate-800"
               >
-                Phone Number
+                ফোন নম্বর
               </label>
               <input
                 id="phone"
                 name="phone"
                 type="tel"
                 required
-                placeholder="Your phone number"
+                placeholder="আপনার ফোন নম্বর"
                 className="mt-2 h-11 w-full rounded-md border border-slate-200 bg-white px-3 text-sm text-slate-900 outline-none transition focus:border-[#145b86] focus:ring-2 focus:ring-[#145b86]/20"
               />
             </div>
@@ -107,7 +107,7 @@ export default function Contact() {
                 htmlFor="email"
                 className="text-sm font-semibold text-slate-800"
               >
-                Email Address
+                ইমেইল ঠিকানা
               </label>
               <input
                 id="email"
@@ -123,14 +123,14 @@ export default function Contact() {
                 htmlFor="message"
                 className="text-sm font-semibold text-slate-800"
               >
-                Your Message
+                আপনার বার্তা
               </label>
               <textarea
                 id="message"
                 name="message"
                 required
                 rows={5}
-                placeholder="Tell us how we can help..."
+                placeholder="আমরা কীভাবে সহায়তা করতে পারি তা জানান..."
                 className="mt-2 w-full resize-y rounded-md border border-slate-200 bg-white px-3 py-3 text-sm text-slate-900 outline-none transition focus:border-[#145b86] focus:ring-2 focus:ring-[#145b86]/20"
               />
             </div>
@@ -140,11 +140,11 @@ export default function Contact() {
             type="submit"
             className="mt-6 h-11 w-full rounded-md bg-[#145b86] font-semibold text-white hover:bg-[#0f4668]"
           >
-            Submit Message
+            বার্তা পাঠান
           </Button>
 
           <p className="mt-3 text-center text-xs text-slate-500">
-            We&apos;ll get back to you as soon as possible.
+            আমরা যত দ্রুত সম্ভব আপনার সঙ্গে যোগাযোগ করব।
           </p>
         </form>
       </div>

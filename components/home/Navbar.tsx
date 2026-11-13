@@ -5,11 +5,11 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const navigationLinks = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/courses", label: "Courses" },
-  { href: "/results", label: "Results" },
-  { href: "/teachers", label: "Teachers" },
+  { href: "/", label: "হোম" },
+  { href: "/about", label: "আমাদের সম্পর্কে" },
+  { href: "/courses", label: "কোর্সসমূহ" },
+  { href: "/results", label: "ফলাফল" },
+  { href: "/teachers", label: "শিক্ষকবৃন্দ" },
 ];
 
 function CccLogo() {
@@ -38,7 +38,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/95 backdrop-blur">
       <nav
-        aria-label="Main navigation"
+        aria-label="প্রধান নেভিগেশন"
         className="mx-auto flex min-h-16 max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8"
       >
         <CccLogo />
@@ -48,7 +48,7 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-[11px] font-semibold text-slate-600 transition-colors hover:text-[#145b86]"
+              className="text-sm font-semibold text-slate-600 transition-colors hover:text-[#145b86]"
             >
               {link.label}
             </Link>
@@ -60,13 +60,13 @@ export default function Navbar() {
             href="/contact"
             className="rounded-md bg-[#145b86] px-4 py-2 text-[11px] font-semibold text-white shadow-sm transition-colors hover:bg-[#0f4668]"
           >
-            Contact Now
+            এখনই যোগাযোগ করুন
           </Link>
         </div>
 
         <button
           type="button"
-          aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+          aria-label={isMobileMenuOpen ? "মেনু বন্ধ করুন" : "মেনু খুলুন"}
           aria-expanded={isMobileMenuOpen}
           onClick={() => setIsMobileMenuOpen((open) => !open)}
           className="inline-flex h-9 w-9 items-center justify-center rounded-md text-[#145b86] transition-colors hover:bg-slate-100 md:hidden"
@@ -98,7 +98,7 @@ export default function Navbar() {
               onClick={() => setIsMobileMenuOpen(false)}
               className="mt-3 rounded-md bg-[#145b86] px-4 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-[#0f4668]"
             >
-              Contact Now
+              এখনই যোগাযোগ করুন
             </Link>
           </div>
         </div>

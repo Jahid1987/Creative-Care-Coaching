@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative isolate overflow-hidden bg-[#0e5278]">
       <Image
         src="/hero.jpeg"
-        alt="Creative Care Coaching students learning together"
+        alt="Creative Care Coaching-এর শিক্ষার্থীরা একসাথে শিখছে"
         fill
         priority
         className="object-cover object-center"
@@ -24,19 +24,19 @@ export default function Hero() {
           </p>
 
           <h1 className="max-w-xl text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
-            Build Strong Foundations.
-            <span className="block text-[#b9efc9]">Achieve Bigger Goals.</span>
+            শক্তিশালী ভিত্তি গড়ুন।
+            <span className="block text-[#b9efc9]">বৃহত্তর লক্ষ্য অর্জন করুন।</span>
           </h1>
 
           {/* <p className="mt-5 max-w-lg text-sm leading-7 text-blue-50 sm:text-base">
-            Bangladesh&apos;s leading educational coaching center helping
+            বাংলাদেশ&apos;s leading educational coaching center helping
             students grow with confidence, discipline, and the skills they need
             to succeed.
           </p> */}
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button className="h-11 rounded-md bg-[#f6a23a] px-6 font-semibold text-white shadow-sm hover:bg-[#e89025]">
-              <Link href="/contact">Contact Now</Link>
+              <Link href="/contact">এখনই যোগাযোগ করুন</Link>
             </Button>
 
             <Button
@@ -44,7 +44,7 @@ export default function Hero() {
               className="h-11 rounded-md border-white/70 bg-white/10 px-6 font-semibold text-white hover:bg-white hover:text-[#145b86]"
             >
               <Link href="/courses">
-                Explore Courses
+                কোর্স দেখুন
               </Link>
             </Button>
           </div>
